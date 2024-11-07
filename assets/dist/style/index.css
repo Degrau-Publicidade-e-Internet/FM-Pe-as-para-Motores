@@ -750,6 +750,9 @@ footer .conteudo-footer p {
   .brasil .enderecos {
     flex-direction: column;
   }
+  .brasil .enderecos h3 {
+    text-align: center;
+  }
   .brasil .enderecos p {
     text-align: center;
   }
