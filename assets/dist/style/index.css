@@ -246,6 +246,7 @@ body {
 }
 
 .brasil {
+  background: #F6F6F6;
   padding: 75px 0;
 }
 .brasil .conteudo-brasil {
@@ -550,6 +551,7 @@ body {
 
 .contato {
   padding-top: 60px;
+  background: #F6F6F6;
 }
 .contato .conteudo-contato {
   display: flex;
