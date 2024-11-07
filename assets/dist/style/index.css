@@ -54,7 +54,7 @@ body {
 }
 
 .banner {
-  padding-bottom: 70px;
+  padding-bottom: 80px;
 }
 .banner .conteudo-banner {
   display: flex;
@@ -75,7 +75,7 @@ body {
 .banner .conteudo-banner .titulo-banner span {
   color: #FF6800;
   font-family: "Poppins", sans-serif;
-  font-size: 43px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 700;
   line-height: 55px;
@@ -83,7 +83,7 @@ body {
 .banner .conteudo-banner .titulo-banner h1 {
   color: #000;
   font-family: "Poppins", sans-serif;
-  font-size: 43px;
+  font-size: 45px;
   font-style: normal;
   font-weight: 700;
   line-height: 1.2;
@@ -104,7 +104,7 @@ body {
   color: #1E1E1E;
 }
 .banner .conteudo-banner .botao-banner {
-  margin-top: 54px;
+  margin-top: 65px;
 }
 .banner .conteudo-banner .botao-banner a {
   color: #FFF;
@@ -132,8 +132,9 @@ body {
   padding-bottom: 75px;
 }
 .motores .conteudo-motores {
+  column-gap: 30px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .motores .conteudo-motores .item-motores {
   width: 100%;
@@ -489,7 +490,7 @@ body {
   margin: 0px;
 }
 .marcas .conteudo-marcas .textos-marcas {
-  width: 100%;
+  width: 90%;
 }
 .marcas .conteudo-marcas .textos-marcas .texto-marca p {
   color: var(--Text-primary, #000);
@@ -513,7 +514,7 @@ body {
 .escolher .conteudo-escolher .itens-escolher {
   width: 100%;
 }
-.escolher .conteudo-escolher .itens-escolher .bordaum {
+.escolher .conteudo-escolher .itens-escolher .bordadois {
   background: linear-gradient(90deg, #FF6800, #1B1B1B);
   /* Gradiente para o fundo */
   border-radius: 30px;
@@ -521,7 +522,7 @@ body {
   padding: 1px;
   /* Espaço para simular a borda */
 }
-.escolher .conteudo-escolher .itens-escolher .bordadois {
+.escolher .conteudo-escolher .itens-escolher .bordaum {
   background: linear-gradient(-90deg, #FF6800, #1B1B1B);
   /* Gradiente para o fundo */
   border-radius: 30px;
