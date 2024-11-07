@@ -471,7 +471,6 @@ body {
 }
 .marcas .conteudo-marcas .img-marcas img {
   width: 100%;
-  max-width: 657px;
 }
 .marcas .conteudo-marcas .titulo-marcas {
   margin-bottom: 30px;
@@ -490,7 +489,7 @@ body {
   margin: 0px;
 }
 .marcas .conteudo-marcas .textos-marcas {
-  width: 90%;
+  width: 80%;
 }
 .marcas .conteudo-marcas .textos-marcas .texto-marca p {
   color: var(--Text-primary, #000);
