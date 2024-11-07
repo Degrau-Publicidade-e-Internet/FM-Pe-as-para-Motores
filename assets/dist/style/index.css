@@ -18,6 +18,10 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.menu .conteudo-menu .logo-fm img {
+  max-width: 85px;
+  width: 100%;
+}
 .menu .conteudo-menu .orcamento {
   display: flex;
   align-items: center;
@@ -54,6 +58,9 @@ body {
 }
 .banner .conteudo-banner {
   display: flex;
+}
+.banner .conteudo-banner .texto-banner {
+  width: 100%;
 }
 .banner .conteudo-banner h3 {
   margin: 50px 0;
@@ -116,6 +123,10 @@ body {
 .banner .conteudo-banner .img-banner {
   width: 100%;
 }
+.banner .conteudo-banner .img-banner img {
+  max-width: 646px;
+  width: 100%;
+}
 
 .motores {
   padding-bottom: 75px;
@@ -127,6 +138,10 @@ body {
 .motores .conteudo-motores .item-motores {
   width: 100%;
   max-width: 586px;
+}
+.motores .conteudo-motores .item-motores img {
+  max-width: 586px;
+  width: 100%;
 }
 .motores .conteudo-motores .textos-motores {
   margin-top: -5px;
@@ -382,6 +397,16 @@ body {
   column-gap: 50px;
   align-items: center;
 }
+.quemsomos .conteudo-quemsomos .img-quemsomos {
+  width: 100%;
+}
+.quemsomos .conteudo-quemsomos .img-quemsomos img {
+  max-width: 508px;
+  width: 100%;
+}
+.quemsomos .conteudo-quemsomos .textos-quemsomos {
+  width: 100%;
+}
 .quemsomos .titulo-quemsomos h2 {
   color: #FF6800;
   font-family: "Poppins", sans-serif;
@@ -440,6 +465,13 @@ body {
   align-items: center;
   column-gap: 70px;
 }
+.marcas .conteudo-marcas .img-marcas {
+  width: 100%;
+}
+.marcas .conteudo-marcas .img-marcas img {
+  width: 100%;
+  max-width: 657px;
+}
 .marcas .conteudo-marcas .titulo-marcas {
   margin-bottom: 30px;
 }
@@ -456,7 +488,10 @@ body {
   /* 125% */
   margin: 0px;
 }
-.marcas .conteudo-marcas .texto-marca p {
+.marcas .conteudo-marcas .textos-marcas {
+  width: 100%;
+}
+.marcas .conteudo-marcas .textos-marcas .texto-marca p {
   color: var(--Text-primary, #000);
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -560,7 +595,9 @@ body {
   column-gap: 50px;
 }
 .contato .conteudo-contato .img-contato img {
-  margin-bottom: -6px;
+  margin-bottom: -4px;
+  width: 100%;
+  max-width: 593px;
 }
 .contato .conteudo-contato .ajuda p {
   color: #000;
@@ -620,6 +657,10 @@ footer .conteudo-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+footer .conteudo-footer img {
+  max-width: 85px;
+  width: 100%;
 }
 footer .conteudo-footer p {
   color: #FFF;
